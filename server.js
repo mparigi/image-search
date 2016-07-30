@@ -1,6 +1,6 @@
 var express = require("express");
 var request = require("request");
-var key = require("./key.js");
+var key = {mlab: process.env.MONGOLAB_PASS,bing: process.env.BING_KEY};
 var mongo = require("mongodb").MongoClient;
 
 var app = express();
