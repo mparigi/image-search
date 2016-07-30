@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/mparigi/image-search#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
   }
 }
